@@ -1,8 +1,9 @@
 # NAME OF PROJECT HERE
+BANK FORM/BANK FORM WITH VALIDATION
+
 
 ### Description
->THIS IS MY PROJECT.
->ITS VERY SERIOUS BIDNESS
+CREATED A MOCK LOAN FORM USING HTML INPUT (TEXT, SELECT, RADIO, CHECKBOX, DROPDOWNS)
 
 ### SCREENSHOTS:
 
@@ -13,11 +14,11 @@
 ### How to run:
 
 ```
-http-server -p XXXXX
+http-server -p XXXX
 ```
 
 This will show at:
-`http://localhost:XXX
+`http://localhost:XXXX
 
 
 ### Contributors
