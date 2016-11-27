@@ -4,27 +4,27 @@ header {
 	text-align:center;
 	margin: 100px 75px 50px 75px;
 	color: #96061e;
-	
 }
 
 .bankname{
 	text-decoration:#4f010a;
+	text-align:center;
 	font-size: 50px;
 	border:20px double;
 	border-color: #969206 green #969206 green;
 	border-radius: 5px;
-	
 	}
 
 .account{
 	list-style: none;
-    display: inline;
-	
+  display: inline;
 }
 
-
-
 .navbar{
+	margin-left: 170px;
+}
+
+.navbar li{
 	color: green;
 	list-style: none;
 	display: inline;
@@ -44,7 +44,6 @@ nav a{
 
 nav a:hover{
 	color:purple;
-	
 }
 
 form {
@@ -56,20 +55,22 @@ form {
 .loanapp {
 	text-align: center;
 	text-decoration: underline;
-	font-size: 20px
+	font-size: 30px;
 }
 
 .app1 {
-	margin-left:5%;
+	display:inline-block;
 	width:40%;
 	float:left;
-	margin-bottom: 10%;
+	margin-left: 20%;
 }
 
 .app2 {
-	margin-top:3%;
-	margin-right: 40%;
-	margin-left: 5%;
-	margin-bottom: 20%;
+	display:inline-block;
+	width:40%;
 }
 
+.submit_form{
+	width:20%;
+	margin: 0 auto;
+}

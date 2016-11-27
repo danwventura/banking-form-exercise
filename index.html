@@ -1,151 +1,103 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
-
-
-<header>
-	<meta charset="utf-8">
-	<title>First Bank of Mars</title>
-	<h1 class="bankname">First Bank of Mars</h1>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="validation.css">
-	
-	
-	<input type="select" placeholder="Username">
-	<input type="select" placeholder="Password">
-	<button type="Login"> Login </button>
-	<br>
-	<br>
-	<button type="Sign-Up"> Sign-Up </button>
-
-
-</header>
-
-
-
-<head>
-	
-<nav>
-		<ul>
-			<li class="navbar"><a href="Checking">Checking</a></li>
-			<li class="navbar"><a href="Savings">Savings</a></li>
-			<li class="navbar"><a href="Loans">Loans</a></li>
-			<li class="navbar"><a href="About Us">About Us</a></li>
-			<li class="navbar"><a href="Contact Us">Contact Us</a></li>
-		</ul>
-	</nav>
-</head>
-
-
-
-
-<form>
-
-<body>
-		
-	<h2 class="loanapp">Loan Application</h2>
-
-	<section class="app1">
-
-		<p>I. First Name:</p>
-		<input type="select" placeholder="First Name" required>
-
-	<br>
-		<p>II. Middle Initial:</p>
-		<input type="select" placeholder="Middle Initial">
-	<br>
-		<p>III. Last Name:</p>
-		<input type="select" placeholder="Last Name" required>
-	<br>	
-		<p>IV. Address:</p>
-		<input type="address" placeholder="Address" required>
-	<br>	
-		<p>V. Occupation:</p>
-		<input type="select" placeholder="Occupation">
-	<br>
-		<p>VI. Current Employer:</p>
-		<input type="select" placeholder="Current Employer" required>
-	<br>
-		<p>VII. Employer Address:</p>
-		<input type="select" placeholder="Employer's Address" required>
-	<br>
-	<p>VIII. Loan Type</p>
-				
-		<select name:="Loan Type">
-		<option value="Commercial">Commercial</option>
-		<option value="Real Estate">Real Estate</option>
-		<option value="Personal">Personal</option>
-		<option value="Mortgage">Mortgage</option>
-		</select>
-	<br>
-	</section>
-
-	<section class="app2">
-		
-	
-	<p>IX. Requested Amount</p>
-	<input type="select" placeholder="Total Requested Amount" required>
-	<br>
-	<p>X. Length of Loan</p>
-		<select name="Length of Loan">
-		<option value="5 years">5 years</option>
-		<option value="15 years">15 years</option>
-		<option value="30 years">30 years</option>
-		</select>
-	<br>
-	<p>XI. Special Conditions </p>
-		<select name="Special Conditions">
-		<option value="Down Payment">Down Payment</option>
-		<option value="Out-of-State Resident">Out-of-State Resident</option>
-		<option value="Married">Married</option>
-		<option value="Applying with Cosigner">Applying with Cosigner</option>
-		</select>
-	<br>
-	<p>XII. Additional Comments</p>
-	<input type="select" placeholder="Additional Comments">
-	<br>
-	<p>XIII. Email Address</p>
-	<input type="select" placeholder="Email Address">
-	<br>
-	<p>XIV. Telephone Number</p>
-	<input type="select" placeholder="Contact Number" required>
-	<br>
-	<p>XV. LinkedIn URL</p>
-	<input type="select" placeholder="URL">
-	<br>
-	<br>
-	<br>
-
-
-
-	<p>Press Only Once</p>
-	<button type="Submit"> Submit </button>
-	
-
-	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-
-
-
-
-</form>
-
-<footer>
-	<p>&copy; 2016 Dan Ventura "Ace".</p>
-
-</footer>
+	<head>
+		<meta charset="utf-8">
+		<title>First Bank of Mars</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="validation.css">
+	</head>
+	<body>
+		<div class="bankname">
+			<h2>First Bank of Mars</h2>
+			<input type="select" placeholder="Username">
+			<input type="select" placeholder="Password">
+			<button type="Login"> Login </button>
+			<br>
+			<br>
+			<button type="Sign-Up"> Sign-Up </button>
+		</div>
+		<nav>
+			<ul class="navbar">
+				<li><a href="Checking">Checking</a></li>
+				<li><a href="Savings">Savings</a></li>
+				<li><a href="Loans">Loans</a></li>
+				<li><a href="About Us">About Us</a></li>
+				<li><a href="Contact Us">Contact Us</a></li>
+			</ul>
+		</nav>
+		<form>
+			<h2 class="loanapp">Loan Application</h2>
+			<section class="app1">
+				<p>I. First Name:</p>
+				<input type="select" placeholder="First Name" required>
+				<br>
+				<p>II. Middle Initial:</p>
+				<input type="select" placeholder="Middle Initial">
+				<br>
+				<p>III. Last Name:</p>
+				<input type="select" placeholder="Last Name" required>
+				<br>
+				<p>IV. Address:</p>
+				<input type="address" placeholder="Address" required>
+				<br>
+				<p>V. Occupation:</p>
+				<input type="select" placeholder="Occupation">
+				<br>
+				<p>VI. Current Employer:</p>
+				<input type="select" placeholder="Current Employer" required>
+				<br>
+				<p>VII. Employer Address:</p>
+				<input type="select" placeholder="Employer's Address" required>
+				<br>
+				<p>VIII. Loan Type</p>
+				<select name:="Loan Type">
+					<option value="Commercial">Commercial</option>
+					<option value="Real Estate">Real Estate</option>
+					<option value="Personal">Personal</option>
+					<option value="Mortgage">Mortgage</option>
+				</select>
+				<br>
+			</section>
+			<section class="app2">
+				<p>IX. Requested Amount</p>
+				<input type="select" placeholder="Total Requested Amount" required>
+				<br>
+				<p>X. Length of Loan (Years)</p>
+						<input type="radio" value="5 years"> 5
+						<input type="radio" value="15 years"> 15
+						<input type="radio" value="30 years"> 30
+				<br>
+				<p>XI. Special Conditions </p>
+						<input type= "checkbox" value="Down Payment">Down Payment
+						<br>
+						<input type="checkbox" value="Out-of-State Resident">Out-of-State Resident
+						<br>
+						<input type="checkbox" value="Married">Married
+						<br>
+						<input type="checkbox" value="Applying with Cosigner">Applying with Cosigner</option>
+				<br>
+				<p>XII. Additional Comments</p>
+				<input type="textarea" placeholder="Additional Comments">
+				<br>
+				<p>XIII. Email Address</p>
+				<input type="select" placeholder="Email Address">
+				<br>
+				<p>XIV. Telephone Number</p>
+				<input type="select" placeholder="Contact Number" required>
+				<br>
+				<p>XV. LinkedIn URL</p>
+				<input type="select" placeholder="URL">
+				<br>
+				<br>
+				<br>
+			</section>
+			<div class="submit_form">
+				<p>Press Only Once</p>
+				<button type="Submit"> Submit </button>
+			</div>
+		</form>
+	</body>
+	<footer>
+		<p>&copy; 2016 Dan Ventura "Ace".</p>
+	</footer>
 </html>

@@ -26,13 +26,15 @@ __Me Too__
 <h3> Im an h3</h3>
 <p> paragraph tag </p>
 
-'''
+```
 var cat = "meow";
 var i = 0;
-'''
+```
 
-> im a really nice
-> blockquote
+> im a really nice  
+> blockquote  
 
 
-[click for google] (http://www.google.com)
+[click for google](http://www.google.com)
+
+![cat pic](https://raw.githubusercontent.com/danwventura/banking-form-exercise/master/screenshots/Funny-Cat-Meme-Love-5.jpg)
