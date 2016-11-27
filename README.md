@@ -8,7 +8,7 @@ CREATED A MOCK LOAN FORM USING HTML INPUT (TEXT, SELECT, RADIO, CHECKBOX, DROPDO
 ### SCREENSHOTS:
 
 
-
+https://github.com/danwventura/banking-form-exercise/blob/master/screenshots/bank_form_with_required_fields.png
 
 
 ### How to run:
@@ -18,7 +18,7 @@ http-server -p XXXX
 ```
 
 This will show at:
-`http://localhost:XXXX
+http://localhost:XXXX
 
 
 ### Contributors
